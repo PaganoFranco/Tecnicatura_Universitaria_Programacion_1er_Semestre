@@ -33,7 +33,7 @@ public class HolaMundo {
         System.out.println("miVariableCadena2 = "+ miVariableCadena2);
         //sout + tab
         //Para ejecurtar shift + F6 
-        */
+        
         
         //Clase Nº3 - Variables en Java Parte 2 
         //Reglas para definir una varaible 
@@ -85,5 +85,51 @@ public class HolaMundo {
         System.out.println("Escriba el titulo: ");
         var titulo2 = entrada.nextLine();
         System.out.println("\"Resultado: \" + titulo2 + \" \" + usuario2");
+        */
+        
+        //Clase Nº4 - Tipos Primitivo en Java Parte 1
+        //byte numEnteroByte = 10;
+        byte numEnteroByte = (byte)127;
+        //Si le asignamos un valor mayor o menor nos saldra un error a menos que
+        //hagamos una convercion de tipo pero solo sabe contar desde -127 a 128.
+        //Este error se conoce como perdida de presicionm ejemplo:
+        //byte numEnteroByte = (byte)127;
+        System.out.println("numEnteroByte: " + numEnteroByte);
+        System.out.println("Valoe minimo del Byte: " + Byte.MIN_VALUE);
+        System.out.println("Valoe maximo del Byte: " + Byte.MAX_VALUE);
+        
+        short numEnteroShort = 10;
+        System.out.println("numEnteroByte: " + numEnteroShort);
+        System.out.println("Valoe minimo del Short: " + Short.MIN_VALUE);
+        System.out.println("Valoe maximo del Short: " + Short.MAX_VALUE);
+        
+        int numEnteroInt = 10;
+        System.out.println("numEnteroInt: " + numEnteroInt);
+        System.out.println("Valoe minimo del Int: " + Integer.MIN_VALUE);
+        System.out.println("Valoe maximo del Int: " + Integer.MAX_VALUE);
+        
+        //long numEnteroLong = 10;
+        long numEnteroLong = 9223372036854775807L;
+        //Para que tome un valor largo, al final debemos agregar la "L" de Long, sino
+        //siempre lo toma como un int por defecto. 
+        System.out.println("numEnteroLong: " + numEnteroLong);
+        System.out.println("Valoe minimo del Long: " + Long.MIN_VALUE);
+        System.out.println("Valoe maximo del Long: " + Long.MAX_VALUE);
+        
+        
+        float numFloat = 5.3F;
+        //Para designar a un numero flotante se puede usar: 10.0F de float o 
+        //sino (float)10.0, sino al usar un punto decimal nos tomar de otro tipo y no float.
+        System.out.println("numFloat = " + numFloat);
+        System.out.println("El valor minimo de Float: "+ Float.MIN_VALUE);
+        System.out.println("El valor maximo de Float: "+ Float.MAX_VALUE);
+        //Los numeros se expresar con exponentes por su longitud al escribirlo. 
+        
+        double numDouble = 5.3;
+        System.out.println("numDouble = " + numDouble);
+        System.out.println("El valor minimo de Double: "+ Double.MIN_VALUE);
+        System.out.println("El valor maximo de Double: "+ Double.MAX_VALUE);
+        
+        
     }
 }
