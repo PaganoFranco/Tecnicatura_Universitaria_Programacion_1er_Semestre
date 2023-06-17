@@ -1,4 +1,5 @@
-# Clase N° 2 - Variables
+'''
+# CLASE N° 2 - Variables
 miVariable = 3
 print(miVariable)
 miVariable = "Hola a todos los estudiantes de la tecnicatura"
@@ -12,7 +13,7 @@ z = x + y
 print(id(y))
 print(id(z))
 
-# Clase N°3 - Tipos de datos Int, Float, String, Bool
+# CLASE N°3 - Tipos de datos Int, Float, String, Bool
 # tipo Int
 a = 10
 print(a)
@@ -80,3 +81,96 @@ numero1 = int(input("Escribir el primer numer: "))
 numero2 = int(input("Escribir el segundo numero: "))
 resultado = numero1 + numero2
 print("la resultado de la suma es:", resultado)
+
+# CLASE N°4 - Operadores en Python Parte 1
+operadorA = 8
+operadorB = 5
+#Adiccion
+suma = operadorA + operadorA
+#print("El resultado de la suma es", suma)
+print(f'El resultado de la suma es {suma}')
+#Sustraccion
+resta = operadorA - operadorB
+print(f'El resultado de la resta es {resta}')
+#Multiplicacion
+multiplicacion = operadorA * operadorB
+print(f'El resultado de la multiplicacion es {multiplicacion}')
+#Division
+division = operadorA/operadorB
+print(f'El resultado de la division es {division}')
+#Division Entera
+divisionE = operadorA//operadorB
+print(f'El resultado de la division es {divisionE}')
+#Exponente
+exponente = operadorA ** operadorB
+print(f'El resultado de la exponente es {exponente}')
+#Modulo/Residuo
+modulo = operadorA % operadorB
+print(f'El resultado de la division o resultado (modulo) es {modulo}')
+
+# Ejercicio clase Nº4 - Rectacgulo:
+alto = int(input("Ingrese la medida del alto del rectangulo: "))
+ancho = int(input("Ingrese la medida del ancho del rectangulo: "))
+area = alto * ancho
+perimetro = 2*(alto + ancho)
+print(f"El area del rectangulo es: {area}")
+print(f"El perimetro del rectangulo es: {perimetro}")
+
+# Operador de incremento con reasignacion:
+miVariable3 = 10
+print(miVariable3)
+# operador de reasignacion:
+# Forma basica:
+miVariable3 = miVariable3 + 1
+print(miVariable3)
+# Forma redusida (sintaxis)
+miVariable3 += 1
+print(miVariable3)
+#miVariable3 = miVariable3 - 2
+miVariable3 -= 2
+print(miVariable3)
+#miVariable3 = miVariable3 * 3
+miVariable3 *= 3
+print(miVariable3)
+#miVariable3 = miVariable3 / 2
+miVariable3 /= 2
+print(miVariable3)
+
+# Operadores de compracion
+d = 4
+b = 2
+# Igualdad
+resultado = d == b
+print(resultado)
+# Desigualdad
+resultado = d != b
+print(resultado)
+# Mayor
+resultado = d > b
+print(resultado)
+# Menor
+resultado = d < b
+print(resultado)
+# Mayor o igual
+resultado = d >= b
+print(resultado)
+# Menor o igual
+resultado = d <= b
+print(resultado)
+
+# Ejericio Numero Par o Impar
+num = int(input("Ingrese un numero: "))
+print(f"El residuo de la division es: {num % 2}")
+if num % 2 == 0:
+    print(f"El numero {num} es par")
+else:
+ print(f"El numero {num} es impar")
+'''
+
+# Ejercicio Determinar si es mayor de edad
+edadPersona = int(input("Ingrese su edad: "))
+edadAdulto = 18
+if edadPersona >= edadAdulto:
+    print(f"Su edad es: {edadPersona}, eres mayor de edad")
+else:
+    print(f"Su edad es: {edadPersona}, eres menor de edad")
