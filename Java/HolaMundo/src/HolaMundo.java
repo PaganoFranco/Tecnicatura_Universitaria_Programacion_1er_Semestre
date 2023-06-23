@@ -85,7 +85,7 @@ public class HolaMundo {
         System.out.println("Escriba el titulo: ");
         var titulo2 = entrada.nextLine();
         System.out.println("\"Resultado: \" + titulo2 + \" \" + usuario2");
-        */
+        
         
         //Clase Nº4 - Tipos Primitivo en Java Parte 1
         //byte numEnteroByte = 10;
@@ -129,6 +129,8 @@ public class HolaMundo {
         System.out.println("numDouble = " + numDouble);
         System.out.println("El valor minimo de Double: "+ Double.MIN_VALUE);
         System.out.println("El valor maximo de Double: "+ Double.MAX_VALUE);
+        
+        */
         
         
     }

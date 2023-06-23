@@ -23,5 +23,7 @@ public class Ejercicio1 {
         System.out.println(nombreDelLibro+" #"+idLibro);
         System.out.println("Precio del libro: $"+ precioDelLibro);
         System.out.println("El envio del libro gratuito es: " + tipoDeEnvio);
+        
+        
     }    
 }
