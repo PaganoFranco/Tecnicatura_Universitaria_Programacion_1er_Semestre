@@ -76,7 +76,7 @@ public class HolaMundo {
           
       
         //Clase Scanner
-        Scanner entrada = new Scanner(System.in);
+        SScanner entrada = new Scanner(System.in);
         //entrada es solamente un nombre (puede ser cualquiera)
         System.out.println("Digite su nombre: ");
         var usuario2 = entrada.nextLine();
@@ -294,8 +294,38 @@ public class HolaMundo {
 //          solucionAritmetica = (4+5)*6/3;
 //          System.out.println("solucionAritmetica = " + solucionAritmetica);
 
+           //Ejercicio calcular area y perimetro triangulo
            
-            
+           //Ejercicio el mayor de dos numeros (Operador ternario)
+           Scanner entrada1 = new Scanner(System.in);
+           System.out.println("Ingrese la altura del triangulo");
+           var altura = Integer.parseInt(entrada1.nextLine());
+           Scanner entrada2 = new Scanner(System.in);
+           System.out.println("Ingrese la base del triangulo");
+           var base = Integer.parseInt(entrada2.nextLine());
+           Scanner entrada3 = new Scanner(System.in);
+           System.out.println("Ingrese del lado del triangulo");
+           var lado1 = Integer.parseInt(entrada3.nextLine());
+           Scanner entrada4 = new Scanner(System.in);
+           System.out.println("Ingrese del otro lado del triangulo");
+           var lado2 = Integer.parseInt(entrada4.nextLine());
+           
+           var perimetro = lado1 + lado2 + base;
+           System.out.println("perimetro = " + perimetro);
+           var area = (base*altura)/2;
+           System.out.println("area = " + area);
+             
+        //El termino nextLine delimita la variable como string
+           Scanner entrada5 = new Scanner(System.in);
+           System.out.println("Ingrese un valor");
+           var nume1 = Integer.parseInt(entrada5.nextLine());
+           Scanner entrada6 = new Scanner(System.in);
+           System.out.println("Ingrese otro valor");
+           var nume2 = Integer.parseInt(entrada6.nextLine());
+        
+           var resultadoT = (nume1 > nume2) ? "El mayor es" + nume1 : "El mayor es " + nume2;
+           System.out.println("resultadoT = " + resultadoT);
+             
           
     }
 } 
