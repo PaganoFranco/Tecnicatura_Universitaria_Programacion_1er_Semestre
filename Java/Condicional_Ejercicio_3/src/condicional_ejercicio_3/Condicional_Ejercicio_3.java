@@ -28,7 +28,5 @@ public class Condicional_Ejercicio_3 {
                 System.out.println("Fuera de rango");
         }
 
-    }
-    5
-    
+    }   
 }
