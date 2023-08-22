@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="92977bae-61bf-4897-aa1c-3ada9c5a3ba4" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Ejercicio 7.6.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Ejercicio 7.7.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -35,7 +35,7 @@
     "git-widget-placeholder": "python"
   }
 }]]></component>
-  <component name="RunManager" selected="Python.Ejercicio 7.6">
+  <component name="RunManager" selected="Python.Ejercicio 7.7">
     <configuration name="Ejercicio 7.6" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leccion5" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -57,7 +57,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="Ejercicio7.2" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Ejercicio 7.7" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="Leccion5" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -69,7 +69,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ejercicio7.2.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/Ejercicio 7.7.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -143,11 +143,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.Ejercicio 7.7" />
         <item itemvalue="Python.Ejercicio 7.6" />
         <item itemvalue="Python.Ejercicio7.5" />
         <item itemvalue="Python.Ejercicio7.4" />
         <item itemvalue="Python.Ejercicio7.3" />
-        <item itemvalue="Python.Ejercicio7.2" />
       </list>
     </recent_temporary>
   </component>
